@@ -1,5 +1,5 @@
 import { Instagram, Linkedin, Youtube } from "lucide-react";
-import logo from "@/assets/logo.png";
+import { BrandMark } from "@/components/BrandMark";
 
 export const Footer = () => {
   return (
@@ -7,10 +7,12 @@ export const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center space-y-6">
           <div className="text-center space-y-4">
-            <img 
-              src={logo} 
-              alt="Hub do Crescimento Logo" 
-              className="h-24 w-auto mx-auto"
+            <BrandMark
+              size="lg"
+              className="justify-center gap-0"
+              hubClassName="text-primary-foreground"
+              crescimentoClassName="text-accent"
+              logoClassName="-mr-10"
             />
             <p className="text-primary-foreground/80 text-sm">
               Automações Acessíveis & Estratégias Digitais
@@ -19,21 +21,21 @@ export const Footer = () => {
           
           <div className="flex gap-6">
             <a 
-              href="#" 
+              href="https://www.instagram.com/airton_souzel/" 
               className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-accent flex items-center justify-center transition-all duration-200 hover:scale-110"
               aria-label="Instagram"
             >
               <Instagram className="w-5 h-5 text-primary-foreground" />
             </a>
             <a 
-              href="#" 
+              href="https://www.linkedin.com/in/airton-souza-b79144202/" 
               className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-accent flex items-center justify-center transition-all duration-200 hover:scale-110"
               aria-label="LinkedIn"
             >
               <Linkedin className="w-5 h-5 text-primary-foreground" />
             </a>
             <a 
-              href="#" 
+              href="https://www.youtube.com/@airtonsouza6036" 
               className="w-10 h-10 rounded-full bg-primary-foreground/10 hover:bg-accent flex items-center justify-center transition-all duration-200 hover:scale-110"
               aria-label="YouTube"
             >

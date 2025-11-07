@@ -6,12 +6,14 @@ import { VideoSection } from "@/components/VideoSection";
 import { CommunitySection } from "@/components/CommunitySection";
 import { CTASection } from "@/components/CTASection";
 import { Footer } from "@/components/Footer";
+import { FounderSection } from "@/components/FounderSection";
 
 const Index = () => {
   return (
     <main className="min-h-screen">
       <Header />
       <HeroSection />
+      <FounderSection />
       <AboutSection />
       <LearningSection />
       <VideoSection />
