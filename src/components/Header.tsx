@@ -8,9 +8,9 @@ export const Header = () => {
         <div className="flex items-center justify-between h-20">
           <BrandMark
             size="lg"
-            textClassName="text-2xl"
+            textClassName="text-xl sm:text-2xl"
             className="gap-0"
-            logoClassName="-mr-10"
+            logoClassName="h-16 -mr-6 sm:h-36 sm:-mr-10"
           />
           
           <Button 

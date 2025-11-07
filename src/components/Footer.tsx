@@ -9,10 +9,11 @@ export const Footer = () => {
           <div className="text-center space-y-4">
             <BrandMark
               size="lg"
-              className="justify-center gap-0"
+              className="justify-center gap-1"
+              textClassName="text-2xl sm:text-3xl"
               hubClassName="text-primary-foreground"
               crescimentoClassName="text-accent"
-              logoClassName="-mr-10"
+              logoClassName="h-20 -mr-6 sm:h-36 sm:-mr-10"
             />
             <p className="text-primary-foreground/80 text-sm">
               Automações Acessíveis & Estratégias Digitais
