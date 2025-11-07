@@ -17,7 +17,7 @@ export const Header = () => {
           <Button 
             variant="accent"
             size="lg"
-            onClick={() => window.open('https://chat.whatsapp.com/your-link', '_blank')}
+            onClick={() => window.open('https://chat.whatsapp.com/FgWJYHioQxIDKgB7f4j8ZT?mode=wwt', '_blank')}
           >
             Entrar na Comunidade
           </Button>

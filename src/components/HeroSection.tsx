@@ -18,7 +18,7 @@ export const HeroSection = () => {
               size="xl" 
               variant="accent"
               className="group"
-              onClick={() => window.open('https://chat.whatsapp.com/your-link', '_blank')}
+              onClick={() => window.open('https://chat.whatsapp.com/FgWJYHioQxIDKgB7f4j8ZT?mode=wwt', '_blank')}
             >
               Quero participar gratuitamente
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />

@@ -27,7 +27,7 @@ export const CTASection = () => {
             size="xl" 
             variant="accent"
             className="group shadow-2xl"
-            onClick={() => window.open('https://chat.whatsapp.com/your-link', '_blank')}
+            onClick={() => window.open('https://chat.whatsapp.com/FgWJYHioQxIDKgB7f4j8ZT?mode=wwt', '_blank')}
           >
             Entrar na Comunidade Gratuita
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
