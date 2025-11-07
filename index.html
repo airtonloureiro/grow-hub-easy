@@ -15,12 +15,25 @@
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Hub de Crescimento" />
-    
     <link rel="icon" type="image/x-icon" href="/src/assets/favicon.ico" />
     <meta name="twitter:description" content="Comunidade gratuita para empreendedores que querem automatizar e crescer" />
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-    
     <link rel="canonical" href="https://lovable.dev" />
+
+    <script>
+      (function() {
+        const params = new URLSearchParams(window.location.search);
+        const redirectParam = params.get("p");
+        if (redirectParam) {
+          const base = "/grow-hub-easy";
+          const url = new URL(window.location.href);
+          url.searchParams.delete("p");
+          const targetPath = redirectParam.startsWith("/") ? redirectParam : "/" + redirectParam;
+          const newUrl = base + targetPath;
+          window.history.replaceState(null, "", newUrl);
+        }
+      })();
+    </script>
   </head>
 
   <body>
