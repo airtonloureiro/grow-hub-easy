@@ -1,14 +1,17 @@
 import { Instagram, Linkedin, Youtube } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export const Footer = () => {
   return (
     <footer className="bg-primary py-12">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center space-y-6">
-          <div className="text-center space-y-2">
-            <h3 className="text-2xl font-bold text-primary-foreground">
-              Hub do Crescimento
-            </h3>
+          <div className="text-center space-y-4">
+            <img 
+              src={logo} 
+              alt="Hub do Crescimento Logo" 
+              className="h-24 w-auto mx-auto"
+            />
             <p className="text-primary-foreground/80 text-sm">
               Automações Acessíveis & Estratégias Digitais
             </p>
