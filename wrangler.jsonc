@@ -1,0 +1,5 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "grow-hub-easy",
+  "pages_build_output_dir": "./dist"
+}
